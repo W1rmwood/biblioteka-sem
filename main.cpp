@@ -3,7 +3,7 @@
 using namespace std;
 
 int maint() {
-    int n,a;
-    cout << "pizda";
+    int n,a,b;
+    cout << "pizda1";
     return 0;
 }
