@@ -3,6 +3,7 @@
 using namespace std;
 
 int maint() {
-    int n;
+    int n,a;
+
     return 0;
 }
