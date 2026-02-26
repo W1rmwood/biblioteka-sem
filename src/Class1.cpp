@@ -11,7 +11,7 @@ int Library::booksCount() {
 
 void Library::printBook() {
     for (int i = 0; i < books.size(); ++i) {
-    std::cout << i << ":" << books[i]."" << std::endl;    //вместо последних кавычек название функции которая возвращает данные о книге
+    std::cout << i << ":" << books[i].getFullInfo() << std::endl;    //вместо последних кавычек название функции которая возвращает данные о книге
     }
 }
 
