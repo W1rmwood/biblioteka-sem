@@ -37,7 +37,7 @@ namespace log {
     }
 
     void printLine() {
-        std::cout << "  --/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\--\n";
+        std::cout << "  -------------------pizda-------------------\n";
     }
         
     void printIndent(int level) {
