@@ -37,7 +37,7 @@ namespace log {
     }
 
     void printLine() {
-        std::cout << "  -------------------pizda-------------------\n";
+        std::cout << "  -------------------p-------------------\n";
     }
         
     void printIndent(int level) {
