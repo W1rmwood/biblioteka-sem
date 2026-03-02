@@ -18,3 +18,15 @@ void Library::printBook() {
 Book Library::getBookByIndex(int index) {
     return books[index];
 }
+void Library::addBook(const Book& book) {
+    books.push_back(book);
+}
+
+Book* Library::findBookByTitle(const std::string& title) {
+    for (auto& book : books) {
+        if (book.getTitle() == title) {
+            return &book;
+        }
+    }
+    return nullptr;
+}

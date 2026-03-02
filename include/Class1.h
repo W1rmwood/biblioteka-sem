@@ -10,6 +10,8 @@ class Library {
     
     public:
         Library();
+        void addBook(const Book& book);  
+        Book* findBookByTitle(const std::string& title);
 
         int booksCount();
 
